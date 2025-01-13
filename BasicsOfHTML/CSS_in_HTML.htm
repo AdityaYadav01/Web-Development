@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- CSS in HTML
+
+- CSS can be added in 3 ways in HTML:-
+1. Inline CSS - Using style attribute in html element
+2. Internal CSS - Using style element in head section
+3. External CSS - Using <link> element to link external file with HTML. It is used to define the style of
+                  many HTML pages.
+ 
+-->
+<html>
+<head>
+    <title>CSS in HTML</title>
+    
+    <!-- Here we have used Internal CSS -->
+    <style>
+        p{
+            color:black;
+            font-size: 50;
+            font-display: initial;
+        }
+    </style>
+    <!-- Here we have used Internal CSS -->
+
+    <!-- Here we have used External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!--
+    1. <link> - It is an empty element which is used to define the relationship between
+                HTML document & external resources.
+    2. rel - rel is an attribute which specifies the relationship between HTML file & external document.
+             Here, stylesheet tell us that the linked file is CSS file.            
+    
+    -->
+
+</head>
+
+<body>
+    <h1 style="font-family: Arial, Helvetica, sans-serif;">Used Inline CSS</h1> <br>
+    
+    <p>For this line we have used inline CSS here</p><br>
+
+    <p>For this paragraph we have used external CSS. Using link element & rel attribute</p>
+    <h2>Adding style to heading</h2>
+
+
+</body>
+
+
+</html>

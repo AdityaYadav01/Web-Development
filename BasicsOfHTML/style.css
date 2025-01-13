@@ -1,0 +1,14 @@
+p{
+    color: red;
+    font-size: 50px;
+}
+body{
+    background-color: black;
+}
+
+h2{
+    border: 3px solid pink;          /* This set the border accross HTML Element*/
+    color: aliceblue;
+    padding: 30px;      /* This property defines the space between border & text */
+    margin: 10px;   /* This property defines space between outside the border */
+}
