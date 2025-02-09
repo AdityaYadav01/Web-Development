@@ -1,0 +1,154 @@
+<!DOCTYPE html><html lang="en">
+<head>
+	<title>Happy Birthday Tanya</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Happy Birthday">
+	<meta name="robots" content="index, follow" />
+	<link rel="author" href="https://github.com/AdityaYadav01" /> 
+    <meta name="keywords" content="Birthday, Happy">
+    <meta property="og:type" content="E-Greeting" />
+    <meta property="og:image" content="Images/favicon.ico" />
+    <meta property="og:description" content="Wish you a very Happy Birthday">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="loading.css">
+	<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet/less" href="cake.less">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>
+</head>
+
+<body>
+	<div class="loading"></div>
+	<audio class="song" controls loop>
+        <source src="hbd1.mp3"></source>
+	   Your browser isn't invited for super fun audio time.
+    </audio>
+    <!-- New Audio for Play/Pause -->
+    <audio id="birthdaySong">
+    <source src="TereNaina.mp3"></source>
+    Your browser does not support the audio element.
+    </audio>
+    <div class="balloons text-center" id="b1">
+    	<h2 style="color:#F2B300;">T</h2>
+    </div>
+    <div class="balloons text-center" id="b2">
+    	<h2 style="color:#0719D4;">A</h2>
+    </div>
+	<div class="balloons text-center" id="b3">
+    	<h2 style="color:#D14D39;">N</h2>
+    </div>
+	<div class="balloons text-center" id="b4">
+    	<h2 style="color:#8FAD00;">Y</h2>
+    </div>
+	<div class="balloons text-center" id="b5">
+    	<h2 style="color:#8377E4;">A</h2>
+    </div>
+    <img src="Images/Balloon-Border.png" width="100%" class="balloon-border">
+ 
+
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_yellow"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_red"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_blue"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_green"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_pink"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_orange"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<img src="Images/banner.png" class="bannar">
+			</div>
+		</div>
+		<div class="row cake-cover">
+			<div class="col-md-12 texr-center">
+				<div class="cake">
+				  <div class="velas">
+				    <div class="fuego"></div>
+				    <div class="fuego"></div>
+				    <div class="fuego"></div>
+				    <div class="fuego"></div>
+				    <div class="fuego"></div>
+				  </div>
+				  <div class="cobertura"></div>
+				  <div class="bizcocho"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row message">
+			<div class="col-md-12">
+				<p>On this day, the world witnessed a momentous event</p>
+                <p>the birth of an absolute legend</p> 
+                <p>that’s you, in case history forgot to document it 😉</p> 
+                <p>If I had a time machine, I’d go back just to witness the moment you graced the world with your presence</p>
+                <p>and maybe flirt with you across the ages, because let’s be real, that’s what I do best 😏</p>
+				<p>But since I can’t, I’ll just have to settle for showering you with affection</p>
+                <p>terrible pick-up lines, and pizza-worthy cheesiness today</p>
+                <p>Wishing you a day as iconic as the fall of Rome (but, like, in a good way)</p>
+                <p>You deserve all the love, laughter, and joy this world has to offer</p>
+                <p>Happy Birthday, you magnificent human! 💕🎂</p>
+
+				
+			</div>
+		</div>
+		<div class="navbar navbar-fixed-bottom">
+			<div class="row">
+				<div class="col-md-6 text-center col-md-offset-3">
+					<button class="btn btn-primary" id="turn_on">It's too Dark, Turn On Lights 💡</button>
+					<button class="btn btn-primary" id="play">Ohh!!! You forgot to turn on the Music 🎵</button>
+					<button class="btn btn-primary" id="bannar_coming">Let's add some decoration 💟</button>
+					<button class="btn btn-primary" id="balloons_flying">How can we forget ballons!!! 🎈</button>
+					<button class="btn btn-primary" id="cake_fadein">Where is your delicious cake? 🎂</button>
+					<button class="btn btn-primary" id="light_candle">Hey Pumpkin, Please Light Up the Candles 🔥</button>
+					<button class="btn btn-primary" id="wish_message">Happy Birthday 🎊</button>
+					<button class="btn btn-primary" id="story">A Message for You 💌</button>
+                    <button class="custom-btn" id="playSong" style="display: none;">Do you know how I will describe those beautiful eyes 👀</button>
+					<!-- <button class="btn btn-primary" id="cake_cut">Lrt's Cut the Cake</button> -->
+				</div>
+			</div>
+			<!-- <div class="col-md-2">
+			</div>
+			<div class="col-md-2">
+			</div>
+			<div class="col-md-2">
+			</div>
+			<div class="col-md-2">
+			</div>
+			<div class="col-md-2">
+			</div> -->
+		</div>
+
+
+	</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="effect.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58229732-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>
